@@ -1,0 +1,71 @@
+# =============================
+# 🛡️ CORE: Codex File Protection
+# =============================
+
+# Heir-only and secret scrolls
+vault/
+heir-only/
+*.secret
+*.ritual
+
+# Local drafts, notebooks, reflections
+*.log
+*.md.backup
+*.tmp
+*.bak
+*.old
+drafts/
+personal-notes/
+journal-logs/
+diary/
+
+# =============================
+# 🧪 Development & Tool Ignored Files
+# =============================
+
+# VSCode or JetBrains IDE folders
+.vscode/
+.idea/
+
+# Python junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node/NPM junk (if ever used)
+node_modules/
+npm-debug.log
+
+# Mac + Windows system noise
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# =============================
+# 📂 GitHub Pages Build Artifacts
+# =============================
+
+_site/
+_site_backup/
+_site_temp/
+
+# =============================
+# 🎥 Multimedia (keep local)
+# =============================
+
+*.mp4
+*.mov
+*.wav
+*.flac
+*.avi
+*.webm
+*.mkv
+*.zip
+*.tar.gz
+
+# For raw videos or unlisted rituals stored locally
+media/raw/
+media/heir-footage/
+recordings/
